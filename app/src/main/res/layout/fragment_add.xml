@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Task"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center">
+        </TextView>
+        <EditText
+            android:id="@+id/insert_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColorHint="#90FFFFFF"
+            android:backgroundTint="#fff"
+            android:textCursorDrawable="@drawable/color_cursor">
+        </EditText>
+        <EditText
+            android:id="@+id/insert_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textColorHint="#90FFFFFF"
+            android:backgroundTint="#fff"
+            android:textCursorDrawable="@drawable/color_cursor">
+        </EditText>
+        <EditText
+            android:id="@+id/insert_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:textColorHint="#90FFFFFF"
+            android:backgroundTint="#fff"
+            android:textCursorDrawable="@drawable/color_cursor">
+        </EditText>
+        <EditText
+            android:id="@+id/insert_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration"
+            android:textColorHint="#90FFFFFF"
+            android:backgroundTint="#fff"
+            android:textCursorDrawable="@drawable/color_cursor">
+        </EditText>
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add task"
+            android:background="#90FFFFFF">
+
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>
